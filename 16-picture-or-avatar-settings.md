@@ -147,4 +147,4 @@ public class MainActivity extends Activity implements OnClickListener {
 
 运行实例，拍一张照片作为头像：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314184442145)
+![](images/49.png)

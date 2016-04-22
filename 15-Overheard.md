@@ -170,6 +170,6 @@ public class MainActivity extends Activity {
 
 运行项目实例，然后用另一个手机发一条短信到测试手机，这时就会在后台数据库中看到这样一条信息，如下截图：
 
-![这里写图片描述](http://img.blog.csdn.net/20160315174143651)
+![](images/48.png)
 
 已经实现了短信监听的功能。

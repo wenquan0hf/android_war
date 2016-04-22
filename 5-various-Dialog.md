@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 
 运行实例如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314165148928)
+![](images/17.png)
 
 这属于比较简单的应用，但是在实际开发中用到还比较多。
 
@@ -147,8 +147,9 @@ public class MyDialogDemo extends Activity {
 
 运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314165315516)
-![这里写图片描述](http://img.blog.csdn.net/20160314165327647)
+![](images/18.png)
+
+![](images/19.png)
 
 ### 三、定制对话框和LayoutInflater
 
@@ -264,8 +265,8 @@ public class MyDialogDemo extends Activity {
 
 4.运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314165457148)
-![这里写图片描述](http://img.blog.csdn.net/20160314165508285)
+![](images/20.png)
+![](images/21.png)
 
 ### 四、日期对话框（DatePickerDialog）和时间对话框（TimePickerDialog）
 
@@ -327,8 +328,8 @@ public class MyDialogDemo extends Activity {
 
 运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314165623352)
-![这里写图片描述](http://img.blog.csdn.net/20160314165633070)
+![](images/22.png)
+![](images/23.png)
 
 TimePickerDialog对话框和DatePickerDialog对话框基本一样。
 
@@ -391,7 +392,7 @@ public class MyDialogDemo extends Activity {
 
 运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314165749163)
+![](images/24.png)
 
 ### 总结
 

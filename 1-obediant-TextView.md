@@ -12,11 +12,11 @@ java.lang.Object
 
 下面通过代码介绍一下TextView的基本使用，新建项目：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314143650234)
+![](images/1.png)
 
 默认什么都不做，运行项目：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314144058080)
+![](images/2.png)
   
 可以看出项目中已经有一个TextView了，TextView上的字符串是Hello World，体现了TextView控件的重要性，
 
@@ -46,11 +46,11 @@ public class MainActivity extends Activity {
 
 运行项目：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314145939243)
+![](images/3.png)
 
 点击TextView，数字发生改变：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314150111462)
+![](images/4.png)
 
 当然可以添加一下颜色在里面，修改activity_main.xml布局文件，改变背景：
 
@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 
 运行项目：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314150353922)
+![](images/5.png)
 
 也可以通过代码：
 
@@ -107,6 +107,6 @@ public class MainActivity extends Activity {
 
 运行如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314211645605)
+![](images/6.gif)
 
 TextView的属性和方法还有很多很多，篇幅限制，不能一一介绍，感兴趣的同学可以看一看官方API文档，挑选自己感兴趣的属性和方法测试一下，加深学习印象。

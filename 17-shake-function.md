@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
 
 必须在真机上模拟，运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160315115849373)
+![](images/50.png)
 
 ### 总结：
 

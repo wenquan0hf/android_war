@@ -184,10 +184,10 @@ public class MainActivity extends Activity {
 
 运行实例如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314201339165)
+![](images/55.png)
 
 点击一个：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314201419617)
+![](images/56.png)
 
 成功跳转到拨号界面，并将对应的电话号码传了过来。

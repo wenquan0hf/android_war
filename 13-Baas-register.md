@@ -8,7 +8,7 @@ Bmob提供开发API文档地址为：<http://docs.bmob.cn/android/developdoc/ind
 
 在Bmob网站上创建应用，获取应用key，这个key必须引入到Android项目中。如下图：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314181923542)
+![](images/43.png)
 
 1.main.xml:
 
@@ -164,10 +164,10 @@ Bmob数据交互都是以对象为基础的，因此要对对象进行封装，�
 
 运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314182313918)
+![](images/44.png)
 
 我们看一下Bmob官网的数据浏览，可以发现多了一个User表格，里面有两条注册数据，注册成功啦！
 
-![这里写图片描述](http://img.blog.csdn.net/20160314182349086)
+![](images/45.png)
 
 本节结合Bmob提供的后台云，实现了网络交互，使我们开发的Android应用跳脱了单机的限制，任何能联网的人都可以使用我们的应用。这里仅是抛砖引玉，Bmob提供了各种各样丰富的API供我们调用，发挥你的想象，可以做出一款非常实用和漂亮的APP，不妨发布到应用市场中去。

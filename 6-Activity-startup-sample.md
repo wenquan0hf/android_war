@@ -32,11 +32,11 @@ public class MainActivity extends Activity {
 
 运行程序连续点击三次按钮，观察一下logcat:
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170225916)
+![](images/25.png)
 
 可以看出每点击一次按钮就产生一个新的活动，此时返回栈中有四个MainActivity,连续按四次返回键才能退出程序。看一下模拟原理示意图：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170242090)
+![](images/26.png)
 
 ### 二、singleTop模式
 
@@ -72,7 +72,7 @@ public class MainActivity extends Activity {
 
 然后重新运行程序,此时再点击按钮只会产生一个Activity:
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170320698)
+![](images/27.png)
 
 下面测试，当MainActivity不处于栈顶时的情形，这时要创建两个activity。
 
@@ -124,11 +124,11 @@ public class SecondActivity extends Activity {
 
 先点击MainActivity里的按钮跳到SecondActivity，然后再点击SecondActivity里的按钮跳到MainActivity，我们来观察logcat:
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170412933)
+![](images/28.png)
 
 一共启动了两次MainActivity，这时你按返回按钮，应该先返回SecondActivity,再按返回按钮返回MainActivity，再按返回按钮程序退出，看一下模拟原理示意图：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170432577)
+![](images/29.png)
 
 ### 三、singleTask模式
 
@@ -184,11 +184,11 @@ protected void onRestart() {
 
 4.运行实例，首先点击MainActivity里的按钮跳到SecondActivity，然后点击SecondActivity里的按钮跳到MainActivity。查看logcat:
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170555293)
+![](images/30.png)
  
 从打印信息中可以看出，在SecondActivity中启动MainActivity时会发现栈中已经存在一个MainActivity实例了，并且在SecondActivity的下面，于是SecondActivity会从返回栈中出栈，而MainActivity重新成了栈顶活动，因此MainActivity的`onRestart()`方法和SecondActivity的`onDestroy()`方法得以执行。这时你只用点击一次返回按钮就能退出程序了。看一下原理示意图：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170618985)
+![](images/31.png)
 
 ### 四、singleInstance
 
@@ -297,8 +297,8 @@ public class ThirdActivity extends Activity {
 
 运行实例，点击按钮跳到SecondActivity，再点击按钮跳到ThirdActivity,我们看一下此时的logcat：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170758059)
+![](images/32.png)
 
 可以看出MainActivity和ThirdActivity在同一个Task中，SecondActivity在另一个Task中（根据打印的Task id不同），这时我们按返回按钮，从ThirdActivity直接跳到MainActivity，再按返回键，跳到SecondActivity,再按返回键，所有的栈都已经空了，程序退出。看一下singleInstance模式的原理示意图：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314170814231)
+![](images/33.png)

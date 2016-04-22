@@ -2,7 +2,7 @@
 
 用过UC浏览器的都熟悉如下功能：
 
-![这里写图片描述](http://img.blog.csdn.net/20160315094824670)
+![](images/41.png)
 
 长按图标会弹出删除的图标，点击删除会删除此项Item，下面研究一下如何实现类似效果。
 
@@ -202,6 +202,6 @@ MainActivity实现了OnItemLongClickListener 接口，监听GridView的长按事
 
 5.运行实例如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314175505002)
+![](images/42.gif)
 
 效果已经实现，结合上一节的动态添加，可以实现动态添加和删除的功能。

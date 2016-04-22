@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 
 运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314160637347)
+![](images/11.png)
 
 ### 二、实现画图功能
 
@@ -137,7 +137,7 @@ public class MainActivity extends Activity {
 
 运行实例，在实例上用手指就可以作画了，如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314160914444)
+![](images/12.png)
 
 ### 总结
 

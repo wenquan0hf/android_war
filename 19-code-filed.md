@@ -140,7 +140,7 @@ public class MainActivity extends Activity{
 
 项目运行在真机上进行测试，用另一台手机发送短信给本机，得到如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314200038550)
+![](images/52.png)
 
 成功获取短信内容，打印出来。
 
@@ -226,10 +226,10 @@ public class MainActivity extends Activity{
 
 在真机上测试，发送： 
 
-![这里写图片描述](http://img.blog.csdn.net/20160314200326347)
+![](images/53.png)
 
 接收：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314200459700)
+![](images/54.png)
 
 超实用的功能，赶快引入到你的项目中去吧，会大大提高用户体验！

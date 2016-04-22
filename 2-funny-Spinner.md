@@ -46,7 +46,7 @@
 
 运行模拟器：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314155424924)
+![](images/7.png)
 
 这时可以看到数据已经添加到Spinner中，我们发现这时的Spinner控件只是徒有其表，没有什么交互，下面实现交互，让代码更有趣。改动main.xml文件，添加一个TextView用于信息提示，一个TextView用于选择信息的显示。代码如下：
 
@@ -104,7 +104,7 @@ public class MainActivity extends Activity {
 实现了`OnItemSelectedListener`接口，并覆写了里面的`onItemSelected`方法，里面的position参数决定了单击的是哪一些，借助这个position就可以获取字符串数组中的字符串，将字符串信息通过TextView显示出来。
 运行实例如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314155650943)
+![](images/8.png)
 
 可以选择Spinner中的选项“广州”，选项将打印在TextView上，互动性就体现出来了，小实例也就有应用的价值了。
 
@@ -192,7 +192,7 @@ public class MainActivity extends Activity {
 
 运行实例如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314155920775)
+![](images/9.png)
 
 ### 总结
  

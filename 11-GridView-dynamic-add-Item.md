@@ -125,6 +125,6 @@ private GridViewAdapter adapter;
 
 运行项目：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314175030484)
+![](images/40.png)
 
 点击最后一个+图片，可以动态增加item。

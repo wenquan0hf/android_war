@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 
 实例运行如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314161406341)
+![](images/13.png)
 
 ### 二、结合ArrayAdapter实现较复杂的ListView
 
@@ -184,7 +184,7 @@ public class Hello extends Activity {
 
 运行上面的实例，使得ListView不仅可以显示文字，也可以显示图片，进行组合显示。
 
-![这里写图片描述](http://img.blog.csdn.net/20160314161923852)
+![](images/14.png)
 
 ### 三、结合上下文菜单实现单项的删除
 
@@ -245,11 +245,11 @@ public class Hello extends Activity {
 
 运行实例如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314162051932)
+![](images/15.png)
 
 点击删除按钮后：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314162107740)
+![](images/16.png)
 
 ### 总结
 

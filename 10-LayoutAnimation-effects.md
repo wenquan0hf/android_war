@@ -54,7 +54,8 @@ public class MainActivity extends ActionBarActivity {
 考虑到版面问题，这里省略掉了导入的包，在IDE中这些包都可以自行导入。代码比较简单实现，不懂的可以参照总结部分。
 运行项目：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314174414575)
+![](images/39.png)
+
 可以看到ListView中的条目一个个显示出来，动画效果可以让我们的应用交互性更强，用户体验更好，逼格也更高。
 
 ### 总结

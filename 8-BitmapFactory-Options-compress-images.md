@@ -100,6 +100,6 @@ public class MainActivity extends Activity {
 
 3.运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314172431072)
+![](images/37.png)
 
 一般开发中都会对图片资源进行压缩，否则图片较多的情况下，极有可能造成内存不足的情况。

@@ -166,7 +166,7 @@ public class MainActivity extends Activity implements
 
 运行实例如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314173215238)
+![](images/38.png)
 
 ### 总结
 

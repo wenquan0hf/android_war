@@ -2,7 +2,7 @@
 
 接着上一篇，我们注册了几个用户，用户表如下：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314182639295)
+![](images/46.png)
 
 下面用ListView将表中数据显示出来吧！
 
@@ -222,6 +222,6 @@ public class User extends BmobObject {
 
 运行实例：
 
-![这里写图片描述](http://img.blog.csdn.net/20160314182928952)
+![](images/47.png)
 
 所有用户数据都被请求到本地了。
